@@ -4,8 +4,9 @@ def prime?(integer)
    if (integer <= 1 || integer == 4)  
       return false
     end 
-  # if (integer <= 3) 
-  #   return  true
+   if (integer <= 3) 
+    return  true
+  end 
     
   
 # Check from 2 to integer-1 
