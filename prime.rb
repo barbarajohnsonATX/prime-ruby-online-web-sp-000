@@ -10,6 +10,7 @@ def prime?(integer)
     
   
    factors = []
+   i = 2
    while i < integer - 1 do 
      if integer % i == 0 
        factors << i 
