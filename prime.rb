@@ -1,12 +1,10 @@
 # Add  code here!
 def prime?(integer)
   # Corner cases 
-   if (integer <= 1 || integer == 4)  
+   if integer <= 1 
       return false
     end 
-   if (integer <= 3) 
-      return  true
-   end 
+ 
     
   
    factors = []
@@ -24,4 +22,4 @@ def prime?(integer)
    end 
 end 
 
-prime?(40)
+
