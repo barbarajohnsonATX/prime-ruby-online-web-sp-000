@@ -1,8 +1,10 @@
 # Add  code here!
 def prime?(integer)
-  if integer == 2 || integer == 5
-    true  
-  else 
+  # Corner cases 
+   if (integer <= 1 || integer == 4)  
+      false
+   if (integer <= 3) 
+      true
     
   
   i = 2 
