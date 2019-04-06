@@ -3,6 +3,7 @@ def prime?(integer)
   # Corner cases 
    if (integer <= 1 || integer == 4)  
       return false
+    end 
   # if (integer <= 3) 
   #   return  true
     
