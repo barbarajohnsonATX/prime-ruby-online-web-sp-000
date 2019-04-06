@@ -23,3 +23,5 @@ def prime?(integer)
      false 
    end 
 end 
+
+prime?(40)
