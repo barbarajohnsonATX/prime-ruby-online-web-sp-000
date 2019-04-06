@@ -1,8 +1,9 @@
 # Add  code here!
 def prime?(integer)
   if integer == 2 || integer == 5
-    false 
-  end 
+    true  
+  else 
+    
   
   i = 2 
   while i < integer  do 
