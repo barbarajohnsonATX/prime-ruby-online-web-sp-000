@@ -5,8 +5,7 @@ def prime?(integer)
       return false
     end 
  
-    
-  
+  # create array of factors 
    factors = []
    i = 2
    while i < integer - 1 do 
