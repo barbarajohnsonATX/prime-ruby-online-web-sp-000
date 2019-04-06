@@ -4,5 +4,7 @@ def prime?(integer)
     false 
   end 
   
-  while 
+  i = 2 
+  while i < integer - 1 do 
+    if 
 end 
