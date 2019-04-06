@@ -15,6 +15,7 @@ def prime?(integer)
      if integer % i == 0 
        factors << i 
      end 
+     i += 1
    end 
    if factors.empty?
      return true 
