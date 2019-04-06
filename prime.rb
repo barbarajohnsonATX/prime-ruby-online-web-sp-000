@@ -18,7 +18,8 @@ def prime?(integer)
      i += 1
    end 
    if factors.empty?
-     factors 
-     return true 
+     true 
+   else 
+     false 
    end 
 end 
