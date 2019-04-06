@@ -11,12 +11,13 @@ def prime?(integer)
   
 # Check from 2 to integer-1 
    i = 2 
+   return_value = true 
+   factors = []
    while i < integer - 1 do 
      if integer % i == 0 
-       return false 
-       i += 1 
+       factors << i 
      end 
-     
    end 
+   if factors.em
    
 end 
