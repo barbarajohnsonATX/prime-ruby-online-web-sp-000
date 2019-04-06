@@ -8,5 +8,7 @@ def prime?(integer)
   while i < integer  do 
     if integer % i == 0 
       false 
-      
+    end 
+    false 
+  end 
 end 
