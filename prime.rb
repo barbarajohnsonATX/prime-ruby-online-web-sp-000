@@ -17,5 +17,5 @@ def prime?(integer)
    end 
    if factors.empty?
      return true 
-   
+   end 
 end 
